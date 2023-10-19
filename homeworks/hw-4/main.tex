@@ -1,0 +1,133 @@
+\documentclass[a4paper, 14pt]{extarticle}
+\usepackage[russian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage[
+  left=20mm,
+  right=10mm,
+  top=20mm,
+  bottom=20mm
+]{geometry}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{diagbox}
+\usepackage[
+  figurename=Рисунок,
+  labelsep=endash,
+]{caption}
+\usepackage{mdframed}
+\usepackage{longtable}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\newmdenv[
+  linewidth=2pt,
+  align=center,
+  topline=false,
+  bottomline=false,
+  rightline=false,
+  skipabove=\topsep,
+  skipbelow=\topsep,
+]{siderules}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  filecolor=blue,
+  urlcolor=blue,
+}
+
+\renewcommand*{\labelitemi}{---}
+\linespread{1.5}
+\setmainfont{PT Astra Serif}
+
+\renewcommand{\baselinestretch}{1.5}
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{6pt}
+
+\setlength{\parindent}{1.25cm}
+\setlist[itemize]{itemsep=0em,topsep=0em,parsep=0em,partopsep=0em,leftmargin=1.55\parindent}
+\setlist[enumerate]{itemsep=0em,topsep=0em,parsep=0em,partopsep=0em,leftmargin=1.55\parindent}
+
+\renewcommand{\thesection}{\arabic{section}.}
+\renewcommand{\thesubsection}{\thesection\arabic{subsection}.}
+\renewcommand{\thesubsubsection}{\thesubsection\arabic{subsubsection}.}
+
+\titleformat{\section}
+{\normalfont\bfseries}{\thesection}{0.5em}{}
+
+\begin{document}
+
+\begin{flushright}
+  \textit{Швалов Даниил К33211}
+\end{flushright}
+
+\begin{center}
+  \bfseries
+  Домашнее задание №4
+
+  <<Работа с информацией>>
+\end{center}
+
+В качестве темы в прошлом домашнем задании я выбрал тему <<Принципы и методики
+здорового сна>>. В качестве техники конспектирования я выбрал метод заметок
+Корнелла. На мой взгляд, это самый удобный способ вести конспект для многих сфер
+обучения. В следующей таблице представлены основные мысли и заметки того, что я
+изучил в источниках, указанных в предыдущем домашнем задании.
+
+\begin{longtable}{|C{0.25\textwidth}|L{0.7\textwidth}|}
+  \hline
+  \textbf{Основные мысли} & \multicolumn{1}{c|}{\textbf{Заметки}} \\
+  \hline
+  Последствия недостатка сна или некачественного сна
+                          &
+  Недостаток сна негативно влияет на производительность, на способность ясно
+  мыслить, быстро реагировать, критически мыслить. Ухудшается способность
+  концентрироваться, запоминать новую информацию, оказывается значительное
+  влияние на физическую работоспособность: время реакции, координацию,
+  выносливость. Повышается риск возникновения проблем с психическим здоровьем:
+  раздражительность, депрессия, тревога и расстройства настроения. Появляется
+  усталость, падает мотивированность к выполнению задач. Также увеличивается риск
+  возникновения проблем со здоровьем: высокое кровяное давление, сердечная
+  недостаточность, болезни почек, ожирение, сахарный диабет. При недостатке сна
+  могут возникать эмоциональное перенапряжение, стрессы, усталость, изнеможение,
+  головные боли, апатия, слабости в мышцах. Могут также возникать трудности с
+  засыпанием или продолжением сна.
+  \\
+  \hline
+  Способы улучшения количества и качества сна
+                          &
+  Для улучшения качества сна, следует руководствоваться следующими принципами.
+  Во-первых, нужно придерживаться режима сна, т. е. ложиться спать и
+  просыпаться в одно и то же время каждый день. Во-вторых, нужно поддерживать
+  благоприятную для сна обстановку: низкая температура в помещении, комфортная
+  влажность, отсутствие посторонних шумов, полная темнота, удобный матрас и
+  подушки. Также стоит использовать различные методы релаксации перед сном, например,
+  чтение или медитацию. В-третьих, перед сном следует ограничить использование
+  гаджетов, потребление кофеина и алкоголя, количество физических нагрузок.
+
+  Улучшить ситуацию также может короткий дневной сон. Он позволит нейтрализовать
+  излишки кортизола, предупредит состояние подавленности, увеличенного давления,
+  может улучшить память и процесс обучения. Также дневной сон способствует
+  продлению работоспособности и заставляет организм бодрствовать до позднего
+  вечера, несмотря на накопленную усталость.
+  \\
+  \hline
+\end{longtable}
+
+Сон играет ключевую роль в здоровье человека. Недостаток сна, а также
+некачественный сон влияют на множество сфер нашей деятельности. Чтобы быть
+здоровым, полным сил, чувствовать себя бодрым, оставаться мотивированным, хорошо
+запоминать и усваивать материал, нужно уделять особое внимание сну.
+
+\end{document}

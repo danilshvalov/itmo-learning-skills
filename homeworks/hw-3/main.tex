@@ -1,0 +1,122 @@
+\documentclass[a4paper, 14pt]{extarticle}
+\usepackage[russian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage[
+  left=20mm,
+  right=10mm,
+  top=20mm,
+  bottom=20mm
+]{geometry}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{diagbox}
+\usepackage[
+  figurename=Рисунок,
+  labelsep=endash,
+]{caption}
+\usepackage{mdframed}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\newmdenv[
+  linewidth=2pt,
+  align=center,
+  topline=false,
+  bottomline=false,
+  rightline=false,
+  skipabove=\topsep,
+  skipbelow=\topsep,
+]{siderules}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  filecolor=blue,
+  urlcolor=blue,
+}
+
+\renewcommand*{\labelitemi}{---}
+\linespread{1.5}
+\setmainfont{PT Astra Serif}
+
+\renewcommand{\baselinestretch}{1.5}
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{6pt}
+
+\setlength{\parindent}{1.25cm}
+\setlist[itemize]{itemsep=0em,topsep=0em,parsep=0em,partopsep=0em,leftmargin=1.55\parindent}
+\setlist[enumerate]{itemsep=0em,topsep=0em,parsep=0em,partopsep=0em,leftmargin=1.55\parindent}
+
+\renewcommand{\thesection}{\arabic{section}.}
+\renewcommand{\thesubsection}{\thesection\arabic{subsection}.}
+\renewcommand{\thesubsubsection}{\thesubsection\arabic{subsubsection}.}
+
+\titleformat{\section}
+{\normalfont\bfseries}{\thesection}{0.5em}{}
+
+\begin{document}
+
+\begin{flushright}
+  \textit{Швалов Даниил К33211}
+\end{flushright}
+
+\begin{center}
+  \bfseries
+  Домашнее задание №3
+
+  <<Техники эффективного чтения>>
+\end{center}
+
+В качестве темы, для которой необходимо найти источники, я выбрал тему
+<<Принципы и методики здорового сна>>. Я считаю, что в эпоху цифровых
+технологий, когда нас окружает куча устройств, способных отвлечь и вмешаться в
+наш сон, это очень актуальная тема. Я сам постоянно сталкиваюсь с тем, что
+не могу уснуть, потому что мне кто-то пишет или у меня появилось желание
+посмотреть еще какое-нибудь видео или полистать мемчики и так до бесконечности.
+Основная моя цель --- изучить принципы и методики здорового сна, чтобы спать
+лучше, высыпаться чаще, быть здоровее и чувствовать себя бодрее.
+
+В качестве источника информации я решил выбрать научную электронную библиотеку
+elibrary --- российскую научную электронную библиотеку, интегрированную с
+Российским индексом научного цитирования (РИНЦ). В итоге я нашел следующие источники по выбранной теме:
+\begin{enumerate}
+  \item Варганов, Д. Р. Особенности здорового сна / Д. Р. Варганов, А. С.
+  Меркулова // Актуальные проблемы здоровьесбережения в современном обществе :
+  сборник научный статей III-й Всероссийской научно-практической конференции,
+  Курск, 07 октября 2021 года. – Курск: Юго-Западный государственный университет,
+  2021. – С. 19-21. – EDN UKTQBN.
+
+  \item Александров, Н. С. Сон как фактор здорового образа жизни / Н. С.
+  Александров, Е. В. Иванова // Рефлексия. – 2023. – № 2. – С. 94-97. – EDN
+  LOEJKD.
+
+  \item Постнова, Н. Ю. Здоровый Сон и его влияние на современного человека / Н.
+  Ю. Постнова // Инновационное развитие регионов: потенциал науки и современного
+  образования : материалы V Национальной научно-практической конференции с
+  международным участием, приуроченной ко Дню российской науки, Астрахань, 08–09
+  февраля 2022 года. – Астрахань: Астраханский государственный
+  архитектурно-строительный университет, 2022. – С. 288-291. – EDN KIIIPG.
+
+  \item Головчан, Е. Н. Критерии здорового сна / Е. Н. Головчан // Образование.
+  Наука. Производство : Сборник докладов XIV Международного молодежного форума,
+  Белгород, 13–14 октября 2022 года. Том Часть 18. – Белгород: Белгородский
+  государственный технологический университет им. В.Г. Шухова, 2022. – С. 165-169.
+  – EDN CMGZWX.
+
+  \item Даудов, Д. Р. Структура здорового сна человека / Д. Р. Даудов, Т. Р.
+  Хамирзоев // Молодой ученый. – 2023. – № 4(451). – С. 101-102. – EDN DYKWAG.
+\end{enumerate}
+
+
+\end{document}

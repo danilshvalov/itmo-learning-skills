@@ -1,0 +1,119 @@
+\documentclass[a4paper, 14pt]{extarticle}
+\usepackage[russian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage[
+  left=20mm,
+  right=10mm,
+  top=20mm,
+  bottom=20mm
+]{geometry}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{diagbox}
+\usepackage[
+  figurename=Рисунок,
+  labelsep=endash,
+]{caption}
+\usepackage{mdframed}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\newmdenv[
+  linewidth=2pt,
+  align=center,
+  topline=false,
+  bottomline=false,
+  rightline=false,
+  skipabove=\topsep,
+  skipbelow=\topsep,
+]{siderules}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  filecolor=blue,
+  urlcolor=blue,
+}
+
+\renewcommand*{\labelitemi}{---}
+\linespread{1.5}
+\setmainfont{PT Astra Serif}
+
+\renewcommand{\baselinestretch}{1.5}
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{6pt}
+
+\setlength{\parindent}{1.25cm}
+\setlist[itemize]{itemsep=0em,topsep=0em,parsep=0em,partopsep=0em,leftmargin=1.55\parindent}
+\setlist[enumerate]{itemsep=0em,topsep=0em,parsep=0em,partopsep=0em,leftmargin=1.55\parindent}
+
+\renewcommand{\thesection}{\arabic{section}.}
+\renewcommand{\thesubsection}{\thesection\arabic{subsection}.}
+\renewcommand{\thesubsubsection}{\thesubsection\arabic{subsubsection}.}
+
+\titleformat{\section}
+{\normalfont\bfseries}{\thesection}{0.5em}{}
+
+\begin{document}
+
+\begin{flushright}
+  \textit{Швалов Даниил К33211}
+\end{flushright}
+
+\begin{center}
+  \bfseries
+  Домашнее задание №2
+
+  <<Мнемотехники>>
+\end{center}
+
+\section*{Метод Цицерона}
+
+Метод Цицерона используется для запоминания списков дел или продуктов, речи для
+конференции, материалов лекции и в целом для запоминания больших объемов
+информации. Метод заключается в том, чтобы создать в воображении некое
+пространство с опорными образами, а затем ассоциировать эти образы с тем, что
+нужно запомнить.
+
+В качестве образов стоит выбирать предметы, которые имеют четкое и постоянное
+расположение в пространстве. Так, например, стол, шкаф, картина --- это хорошие
+опорные образы, потому что они не меняют свое местоположение. В то же время
+кружка или тарелка --- не самые подходящие опорные объекты, поскольку они часто
+перемещаются в пространстве. При этом в качестве образов следует выбирать
+достаточно крупные предметами. Также желательно, чтобы образы не повторялись
+между собой.
+
+Опорные образы стоит располагать в определенном направлении, например, по
+часовой стрелке. Это нужно для того, чтобы выстраивалась определенная цепочка
+информации, по которой можно было бы следовать, как бы идя по помещению.
+
+\section*{Пиктограммы}
+
+Для запоминания больших объемов информации также можно использовать метод
+пиктограмм. Этот метод отлично подходит людям-визуалам, которые лучше всего
+запоминают именно зрительные образы. Данный метод устроен следующим образом.
+
+Допустим, есть текст, который необходимо запомнить. Для этого текста нужно
+выделить ключевые тезисы и выписать их. Для каждого такого тезиса нужно
+нарисовать простую картинку --- пиктограмму, с которой будет ассоциироваться
+тезис. В качестве картинки может выступать что угодно: человечки, животные,
+геометрические фигуры и т. п. После этого необходимо запомнить
+последовательность, в которой идут эти картинки.
+
+Пиктограммы могут выступать не только как метод запоминания информации, но и как
+шпаргалки. Например, выступая с докладом, можно положить перед собой небольшой
+листочек с пиктограммами. Если что-то вдруг вылетит из головы, пиктограммы
+помогут вспомнить забытое.
+
+\end{document}
